@@ -1,7 +1,0 @@
-$mainBlue: #2f5572;
-.large-hero{
-    &__title{
-        color: $mainBlue;
-        border: 24px solid green;;
-    }
-}

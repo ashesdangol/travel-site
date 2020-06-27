@@ -90,10 +90,22 @@
 /*!***********************************!*\
   !*** ./app/assets/scripts/App.js ***!
   \***********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/style.css */ \"./app/assets/styles/style.css\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nalert('1223');\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
+
+/***/ }),
+
+/***/ "./app/assets/styles/style.css":
+/*!*************************************!*\
+  !*** ./app/assets/styles/style.css ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("alert('1223');\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:4)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> body{\\n|     border: 10px solid red;\\n|     color red;\");\n\n//# sourceURL=webpack:///./app/assets/styles/style.css?");
 
 /***/ })
 

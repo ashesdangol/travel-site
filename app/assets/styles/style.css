@@ -1,13 +1,9 @@
+@import 'modules/_largeHero';
+
 body{
     border: 10px solid red;
-    color: red;
+    color: green;
 }
 $mainBlue: #2f5572;
 
-.large-hero{
-    &__title{
-        color: $mainBlue;
-        border: 24px solid red;;
-    }
-}
 

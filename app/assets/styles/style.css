@@ -5,9 +5,9 @@ body{
 $mainBlue: #2f5572;
 
 .large-hero{
-    h2{
+    &__title{
         color: $mainBlue;
-        border: 4px solid red;;
+        border: 24px solid red;;
     }
 }
 

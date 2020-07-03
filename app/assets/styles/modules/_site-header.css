@@ -45,6 +45,7 @@
         z-index: 10;
         top: 20px;
         right: 10px;
+        cursor: pointer;
         &::before{
             content: '';
             position: absolute;

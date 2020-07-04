@@ -2,15 +2,13 @@ class Modal{
     constructor(){
         this.injectHtml();
         this.modal = document.querySelector(".modal");
-        this.openModalButtons = document.querySelectorAll(".open-modal");
         this.closeIcon = document.querySelector(".modal__close");
         this.events();
     }
     events(){
         // listen for open click
 
-        this.openModalButtons.forEach( el =>  el.addEventListener("click", e => this.openTheModal(e) ) )
-
+      
         // listen for close click
 
         this.closeIcon.addEventListener("click", () => this.closeTheModal() )
@@ -28,8 +26,7 @@ class Modal{
         }
     }
 
-    openTheModal(e){
-        e.preventDefault()
+    openTheModal(){
         this.modal.classList.add("modal--is-visible")
 
     }
